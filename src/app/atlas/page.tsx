@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useRef, useMemo } from 'react';
 import { useGSAP } from '@gsap/react';
@@ -236,7 +236,6 @@ export default function AtlasPage() {
                     onMouseEnter={() => setHoveredAsset(asset)}
                     onMouseLeave={() => setHoveredAsset(null)}
                     onClick={() => router.push(`/arsip/${asset.id}`)}
-                    style={{ cursor: 'pointer' }}
                   >
                     <g>
                       <circle
