@@ -39,6 +39,7 @@ export default function RootLayout({
     <html lang="id" className="dark">
       <body
         className={`${lexend.variable} ${playfair.variable} bg-[#0E0B08] text-[#F2E8D5] antialiased grain-overlay`}
+        suppressHydrationWarning
       >
         <Providers>
 
